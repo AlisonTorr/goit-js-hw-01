@@ -8,7 +8,7 @@ let totalPrice = pricePerDroid * purchasedDroidNumber;
 if ((purchasedDroidNumber = null)) {
   message = "Отменено пользователем!";
 } else if (purchasedDroidNumber > 0) {
-  message = totalPrice;
+  message = `К оплате ${totalPrice} кредитов`;
 }
 
 if (credits < totalPrice) {
