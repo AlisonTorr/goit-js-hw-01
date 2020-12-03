@@ -11,7 +11,9 @@ if (userPassword === ADMIN_PASSWORD) {
   message = "Добро пожаловать!";
 } else if (userPassword !== ADMIN_PASSWORD) {
   message = "Доступ запрещен, неверный пароль!";
-} else if (enterPassword === null) {
+}
+
+if (enterPassword === null) {
   message = "Отменено пользователем!";
 }
 
