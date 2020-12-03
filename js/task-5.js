@@ -1,9 +1,9 @@
 let country;
 let deliveryPrice;
 
-const country = prompt("Введите страну доставки");
+const enterCountry = prompt("Введите страну доставки");
 
-switch (country) {
+switch (enterCountry) {
   case Australia:
     deliveryPrice = 170;
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
