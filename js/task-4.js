@@ -14,5 +14,5 @@ if ((purchasedDroidNumber = null)) {
 if (credits < totalPrice) {
   message = "Недостаточно средств на счету!";
 } else {
-  message = `Вы купили $purchsedDroidNumber дроидов, на счету осталось ($credits - $totalPrice) кредитов.`;
+  message = `Вы купили ${purchsedDroidNumber} дроидов, на счету осталось (${credits} - ${totalPrice}) кредитов.`;
 }
