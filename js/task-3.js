@@ -6,10 +6,10 @@ console.log(enterPassword);
 
 if (enterPassword === null) {
   message = "Отменено пользователем!";
+  console.log(message);
 }
 
 const userPassword = prompt("Введите свой пароль");
-console.log(userPassword === ADMIN_PASSWORD);
 
 if (userPassword === ADMIN_PASSWORD) {
   message = "Добро пожаловать!";
