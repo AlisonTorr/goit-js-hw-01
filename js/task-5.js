@@ -8,24 +8,28 @@ switch (enterCountry) {
     counrty = Australia;
     deliveryPrice = 170;
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
+    console.log(message);
     break;
 
   case Китай:
     country = China;
     deliveryPrice = 100;
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
+    console.log(message);
     break;
 
   case Чили:
     country = Chile;
     deliveryPrice = 250;
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
+    console.log(message);
     break;
 
   case Индия:
     country = India;
     deliveryPrice = 80;
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
+    console.log(message);
     break;
 
   case Ямайка:
