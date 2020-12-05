@@ -6,7 +6,7 @@ console.log(enterPassword);
 
 if (enterPassword === null) {
   message = "Отменено пользователем!";
-  console.log(message);
+  break;
 }
 
 const userPassword = prompt("Введите свой пароль");

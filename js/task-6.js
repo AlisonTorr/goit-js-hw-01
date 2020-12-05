@@ -5,11 +5,10 @@ while (true) {
   input = prompt("Введите число");
 
   if (input === null) {
-    console.log("Отменено пользователем");
     break;
   }
 
-  inout = Number(input);
+  input = Number(input);
 
   const notANumber = Number.isNaN(input);
 
