@@ -6,15 +6,21 @@ console.log(enterPassword);
 
 if (enterPassword === null) {
   message = "Отменено пользователем!";
+  alert(message);
   break;
 }
 
 const userPassword = prompt("Введите свой пароль");
 
-if (userPassword === ADMIN_PASSWORD) {
-  message = "Добро пожаловать!";
-} else if (userPassword !== ADMIN_PASSWORD) {
-  message = "Доступ запрещен, неверный пароль!";
-}
+// if (userPassword.toLoverCase() === ADMIN_PASSWORD) {
+//   message = "Добро пожаловать!";
+// } else if (userPassword !== ADMIN_PASSWORD) {
+//   message = "Доступ запрещен, неверный пароль!";
+// }
+
+message =
+  userPassword.toLoverCase() === ADMIN_PASSWORD
+    ? "Добро пожаловать!"
+    : "Доступ запрещен, неверный пароль!";
 
 alert(message);
