@@ -18,7 +18,7 @@ const userPassword = prompt("Введите свой пароль");
 // }
 
 message =
-  userPassword.toLoverCase() === ADMIN_PASSWORD
+  userPassword.toLowerCase() === ADMIN_PASSWORD
     ? "Добро пожаловать!"
     : "Доступ запрещен, неверный пароль!";
 
