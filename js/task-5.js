@@ -6,31 +6,31 @@ console.log(enterCountry.toLowerCase());
 
 switch (enterCountry) {
   case австралия:
-    counrty = Australia;
+    counrty = Австралию;
     deliveryPrice = 170;
     alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
     break;
 
   case китай:
-    country = China;
+    country = Китай;
     deliveryPrice = 100;
     alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
     break;
 
   case чили:
-    country = Chile;
+    country = Чили;
     deliveryPrice = 250;
     alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
     break;
 
   case индия:
-    country = India;
+    country = Индию;
     deliveryPrice = 80;
     alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
     break;
 
   case ямайка:
-    country = Jamaica;
+    country = Ямайку;
     deliveryPrice = 120;
     alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
     break;
