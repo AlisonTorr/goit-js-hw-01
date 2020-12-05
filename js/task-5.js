@@ -2,11 +2,11 @@ let country;
 let deliveryPrice;
 
 const enterCountry = prompt("Введите страну доставки");
-console.log(enterCountry.toLowerCase());
+console.log(enterCountry.toLowerCase(enterCountry));
 
 switch (enterCountry) {
   case австралия:
-    counrty = Австралию;
+    country = Австралию;
     deliveryPrice = 170;
     alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
     break;
