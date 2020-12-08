@@ -1,38 +1,40 @@
 let country;
 let deliveryPrice;
 
-const enterCountry = prompt("Введите страну доставки");
-console.log(enterCountry.toLowerCase(enterCountry));
+let message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
 
-switch (enterCountry) {
+const enterCountry = prompt("Введите страну доставки");
+console.log(enterCountry);
+
+switch (enterCountry.toLowerCase()) {
   case австралия:
     country = Австралию;
     deliveryPrice = 170;
-    alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
+    alert(message);
     break;
 
   case китай:
     country = Китай;
     deliveryPrice = 100;
-    alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
+    alert(message);
     break;
 
   case чили:
     country = Чили;
     deliveryPrice = 250;
-    alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
+    alert(message);
     break;
 
   case индия:
     country = Индию;
     deliveryPrice = 80;
-    alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
+    alert(message);
     break;
 
   case ямайка:
     country = Ямайку;
     deliveryPrice = 120;
-    alert(`Доставка в ${country} будет стоить ${deliveryPrice} кредитов`);
+    alert(message);
     break;
 
   default:
