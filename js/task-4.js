@@ -5,7 +5,7 @@ const pricePerDroid = 3000;
 
 let message;
 
-const purchasedDroidNumber = prompt("Введите количество дроидов к покупке");
+let purchasedDroidNumber = prompt("Введите количество дроидов к покупке");
 purchasedDroidNumber = Number(purchasedDroidNumber);
 
 if (purchasedDroidNumber === null) {
