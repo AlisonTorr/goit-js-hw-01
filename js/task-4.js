@@ -8,10 +8,10 @@ let message;
 const purchasedDroidNumber = prompt("Введите количество дроидов к покупке");
 purchasedDroidNumber = Number(purchasedDroidNumber);
 
+const totalPrice = pricePerDroid * purchasedDroidNumber;
+
 if (purchasedDroidNumber === null) {
   message = "Отменено пользователем!";
-} else {
-  const totalPrice = pricePerDroid * purchasedDroidNumber;
 }
 
 if (credits < totalPrice) {
