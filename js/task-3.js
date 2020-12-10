@@ -1,3 +1,5 @@
+"use strict";
+
 const ADMIN_PASSWORD = "jqueryismyjam";
 let message;
 
@@ -7,12 +9,12 @@ console.log(enterPassword);
 if (enterPassword === null) {
   message = "Отменено пользователем!";
   alert(message);
+} else {
+  message =
+    enterPassword.toLowerCase() === ADMIN_PASSWORD
+      ? "Добро пожаловать!"
+      : "Доступ запрещен, неверный пароль!";
 }
-
-message =
-  enterPassword.toLowerCase() === ADMIN_PASSWORD
-    ? "Добро пожаловать!"
-    : "Доступ запрещен, неверный пароль!";
 
 alert(message);
 
