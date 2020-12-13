@@ -22,7 +22,7 @@ if (credits < totalPrice) {
   message = "Недостаточно средств на счету!";
 } else {
   creditBalance = credits - totalPrice;
-  message = `Вы купили ${purchsedDroidNumber} дроидов, на счету осталось ${creditBalance} кредитов.`;
+  message = `Вы купили ${purchasedDroidNumber} дроидов, на счету осталось ${creditBalance} кредитов.`;
 }
 
 alert(message);
