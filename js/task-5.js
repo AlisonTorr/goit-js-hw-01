@@ -9,31 +9,31 @@ const enterCountry = prompt("Введите страну доставки");
 console.log(enterCountry);
 
 switch (enterCountry.toLowerCase()) {
-  case австралия:
+  case "австралия":
     country = Австралию;
     deliveryPrice = 170;
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
     break;
 
-  case китай:
+  case "китай":
     country = Китай;
     deliveryPrice = 100;
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
     break;
 
-  case чили:
+  case "чили":
     country = Чили;
     deliveryPrice = 250;
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
     break;
 
-  case индия:
+  case "индия":
     country = Индию;
     deliveryPrice = 80;
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
     break;
 
-  case ямайка:
+  case "ямайка":
     country = Ямайку;
     deliveryPrice = 120;
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
@@ -44,3 +44,5 @@ switch (enterCountry.toLowerCase()) {
 
     alert(message);
 }
+
+alert(message);
