@@ -13,10 +13,14 @@ purchasedDroidNumber = Number(purchasedDroidNumber);
 
 if (purchasedDroidNumber === null) {
   message = "Отменено пользователем!";
-} else if (credits < totalPrice) {
-  message = "Недостаточно средств на счету!";
 } else {
   totalPrice = pricePerDroid * purchasedDroidNumber;
+  console.log(totalPrice);
+}
+
+if (credits < totalPrice) {
+  message = "Недостаточно средств на счету!";
+} else {
   creditBalance = credits - totalPrice;
   message = `Вы купили ${purchsedDroidNumber} дроидов, на счету осталось ${creditBalance} кредитов.`;
 }
