@@ -8,10 +8,11 @@ let message;
 const enterCountry = prompt("Введите страну доставки");
 console.log(enterCountry);
 
+const enteredCountry = enterCountry.toLowerCase();
+
 if (enterCountry === null) {
   message = "Отменено пользователем!";
 } else {
-  const enteredCountry = enterCountry.toLowerCase();
   switch (enteredCountry) {
     case "австралия": {
       country = Австралию;
