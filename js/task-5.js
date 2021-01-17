@@ -15,35 +15,35 @@ if (enterCountry === null) {
 } else {
   switch (enteredCountry) {
     case "австралия": {
-      country = Австралию;
+      country = "Австралию";
       deliveryPrice = 170;
       message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
       break;
     }
 
     case "китай": {
-      country = Китай;
+      country = "Китай";
       deliveryPrice = 100;
       message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
       break;
     }
 
     case "чили": {
-      country = Чили;
+      country = "Чили";
       deliveryPrice = 250;
       message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
       break;
     }
 
     case "индия": {
-      country = Индию;
+      country = "Индию";
       deliveryPrice = 80;
       message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
       break;
     }
 
     case "ямайка": {
-      country = Ямайку;
+      country = "Ямайку";
       deliveryPrice = 120;
       message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
       break;
